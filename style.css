@@ -68,6 +68,36 @@ header {
 }
 
 
+.habilidades_logo_html5{
+  padding: 0 16px;
+  transition: opacity 0.3s;
+}
+
+.habilidades_logo_css{
+  padding: 0 16px;
+  transition: opacity 0.3s;
+}
+
+.habilidades_logo_git{
+  padding: 0 16px;
+  transition: opacity 0.3s;
+}
+
+.habilidades_logo_html5:hover{
+  opacity: 0.5;
+}
+
+.habilidades_logo_css:hover{
+  opacity: 0.5;
+}
+
+.habilidades_logo_git:hover{
+  opacity: 0.5;
+}
+
+
+
+
 
 /* iconos */
 
@@ -77,13 +107,13 @@ a {
 
 .Iconos_ig:hover{
 
-  background: #736C6C;
+  background: rgb(228, 228, 228);
 
 }
 
 .Iconos_git:hover{
 
-  background: #736C6C;
+  background: rgb(228, 228, 228);
 
 }
 
@@ -99,9 +129,10 @@ a {
 
 .contacto_form{
 
-  width: 300px;
+  width: 200px;
   margin: auto;
   padding: 10px;
+  text-align: center;
 
 }
 
@@ -111,15 +142,30 @@ h3{
   text-align: center;
 }
 
-input {
+input{
 
-  margin-left: 50px;
+margin: 5px;
+padding: 10px;
+border-color: black;
+background-color: rgb(228, 228, 228);
+color:black;
 
 }
 
-label{
+button{
 
-background-color: lightcyan;
-background-size: ;
+  padding: 5px 15px 5px 15px;
+  border-radius: 5px;
+}
 
+
+button:hover{
+
+  background-color:rgb(228, 228, 228) ;
+
+}
+
+textarea {
+  resize: none;
+  margin: 5px;
 }
