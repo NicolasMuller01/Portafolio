@@ -20,7 +20,9 @@ header {
 
   grid-column: 1/4;
   grid-row: 1;
- 
+  
+
+
 
 }
 
@@ -101,19 +103,25 @@ header {
 
 /* iconos */
 
+.Iconos{
+
+  padding:20px;
+
+}
+
 a {
   text-decoration: none;
 }
 
 .Iconos_ig:hover{
 
-  background: rgb(228, 228, 228);
+  background: rgb(187, 187, 187);
 
 }
 
 .Iconos_git:hover{
 
-  background: rgb(228, 228, 228);
+  background: rgb(201, 201, 201);
 
 }
 
@@ -168,4 +176,10 @@ button:hover{
 textarea {
   resize: none;
   margin: 5px;
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    background-color: lightblue;
+  }
 }
